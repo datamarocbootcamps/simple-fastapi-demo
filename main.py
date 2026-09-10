@@ -75,3 +75,6 @@ def get_task(task_id: int):
         if task.id == task_id:
             return task
     raise HTTPException(status_code=404, detail="Task not found")
+
+
+print("data maroc bootcamps")
